@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Login</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Login <i data-feather="lock"></i></h1> 
+    </header>
+    <script>
+        feather.replace()
+    </script>  
+    <main>
+        <div class="container">
+            <input type="email" placeholder="Email, phone or username " id="email">
+            <input type="password" placeholder="Password" id="password" required> 
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="show" onclick="showPassword()">Show password
+        </div>
+        <div class="button">
+           <button>Sign in</button></a>
+        </div>
+        <div class="create">
+            <a href="" target="_self" id="newAccount">Create account</a>
+        </div>
+    </main>  
+</body>
+</html>

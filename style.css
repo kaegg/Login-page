@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Titillium+Web:wght@600&display=swap');
+
+body{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(162,161,184,1) 100%);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+}
+
+.feather {
+    width: 50px;
+    height: 50px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+
+header{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+input#email,
+#password{
+  margin-top: 20px;
+  border-radius: 40px;
+  text-align: center;
+  height: 45px;
+  font-size: 1.2rem;
+}
+
+.checkbox{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+
+input[type="checkbox"] {
+  zoom: 1.3;
+}
+
+.button{
+  margin-top: 25px;
+  text-align: center;
+}
+
+button{
+  color: aliceblue;
+  background: #4D4C57;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.create{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+#newAccount{
+  color: aliceblue;
+}
